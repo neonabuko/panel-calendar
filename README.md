@@ -12,7 +12,7 @@ This extension is designed to work with Cinnamon and displays up to 2 of your ca
    
 ```
 
-git clone https://github.com/neonabuko/panel-calendar-neo/
+git clone https://github.com/neonabuko/panel-calendar/
 
 ```
 2. Put the package in ~/.local/share/cinnamon/extensions/
