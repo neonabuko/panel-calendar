@@ -7,6 +7,9 @@ This extension is designed to work with Cinnamon and displays up to 2 of your ca
 - Displays up to 2 upcoming calendar events in your panel.
 - Helps you stay organized and aware of your schedule.
 
+## Requirements
+1. gcalendar
+
 ## Installation
 1. Clone the extension package
    
@@ -14,4 +17,4 @@ This extension is designed to work with Cinnamon and displays up to 2 of your ca
 git clone https://github.com/neonabuko/panel-calendar/
 ```
 2. Put the package in ~/.local/share/cinnamon/extensions/
-3. Enable Panel Calendar in your extension manager
+3. Enable "Panel Calendar" in your extension manager
