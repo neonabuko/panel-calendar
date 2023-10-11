@@ -1,0 +1,22 @@
+{
+	"name": "Panel Calendar",
+	"description": "Display up to 2 calendar events at once on your panel",
+	"author": "neo",
+	"url": "https://github.com/neonabuko",
+	"website": "https://github.com/neonabuko",
+	"uuid": "panel-calendar@neo",
+	"version": "1.0",
+    "cinnamon-version": [
+        "3.2",
+        "3.4",
+        "3.6",
+        "3.8",
+        "4.0",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.6",
+	    "5.8"
+    ],
+	"last-edited": 1690992285
+}
