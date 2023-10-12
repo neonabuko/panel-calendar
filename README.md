@@ -4,7 +4,7 @@ This extension is designed to work with Cinnamon and displays up to 2 of your ca
 
 ## Features
 
-- Displays up to 2 upcoming calendar events in your panel.
+- Displays the 2 oncoming events of your calendar on your panel.
 - Helps you stay organized and aware of your schedule.
 
 ## Requirements
