@@ -1,4 +1,7 @@
 .style-panel-text {
-    color: azure;
+    color: aliceblue;
     font-family: monospace;
+    font-weight: 500;
+    font-size: 11px;
+    text-shadow: 2px;
 }

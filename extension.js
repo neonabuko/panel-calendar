@@ -13,10 +13,9 @@ function setButtonText () {
     // calendar
     var [ok, out, err, exit] = GLib.spawn_command_line_sync('cat today.txt');
     let calendar = out.toString().replaceAll(today, "").replaceAll("\t", "  ");
-
     let index_of_last_new_line = calendar.lastIndexOf("\n");
-
     let calendar_no_last_new_line = calendar.substring(0, index_of_last_new_line); 
+
     panelButtonText.set_text(calendar_no_last_new_line);
 
     return true;
@@ -35,11 +34,10 @@ function init() {
 }
 
 function enable() {
-    Main.panel._rightBox.insert_child_at_index(panelButton, 1);
-    timeout = Mainloop.timeout_add_seconds(1.0, setButtonText);
+    setButtonText();
+    Main.panel._rightBox.insert_child_at_index(panelButton, 0);
 }
 
-function disable() {
-    Mainloop.source_remove(timeout);
+function disable() {    
     Main.panel._rightBox.remove_child(panelButton);
 }
