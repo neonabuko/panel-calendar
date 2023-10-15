@@ -1,6 +1,7 @@
-# Panel Calendar Extension
+# Panel Calendar
+![Screenshot from 2023-10-14 21-30-57](https://github.com/neonabuko/panel-calendar/assets/83613676/e2f609c0-6a79-4c5c-b7bd-66f95a0f9491)
 
-This extension is designed to work with Cinnamon and displays up to 2 of your calendar events directly in your panel.
+> A Cinnamon Desktop extension
 
 ## Features
 
@@ -8,13 +9,15 @@ This extension is designed to work with Cinnamon and displays up to 2 of your ca
 - Helps you stay organized and aware of your schedule.
 
 ## Requirements
-1. gcalendar
+1. Cinnamon Desktop
+2. gcalendar
 
 ## Installation
-1. Clone the extension package
-   
 ```shell
-git clone https://github.com/neonabuko/panel-calendar/
+cd ~/.local/share/cinnamon/extensions/ && git clone https://github.com/neonabuko/panel-calendar/
 ```
-2. Put the package in ~/.local/share/cinnamon/extensions/
-3. Enable "Panel Calendar" in your extension manager
+```shell
+pip install gcalendar
+```
+1. Authorize gcalendar to access your Google Calendar account
+2. Enable "Panel Calendar" in your extension manager
