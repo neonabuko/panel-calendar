@@ -5,15 +5,3 @@
     font-size: 11px;
     text-shadow: 2px;
 }
-
-.calendar-tomorrow {
-    color: blue;
-}
-
-.calendar-day-after {
-    color: green;
-}
-
-.calendar-yesterday {
-    color: red;
-}
